@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Creating zip file..."
 	    
-                sh "zip -r 'FODJenkinsPOC.zip' '/var/jenkins_home/workspace/Cloud-Brokerage/jenkins_FOD_POC/'"
+                sh "zip -r 'FODJenkinsPOC.zip' '/var/jenkins_home/workspace/Cloud-Brokerage/jenkins_FOD_POC/FODJenkinsPOC.java'"
             }
         
         }
